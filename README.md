@@ -1,6 +1,6 @@
 # CTEC 3905 - FRONT END WEB DEVELOPMENT
 
-I have chose to make a website about Singers. 
+I have chosen to make a website about Singers. 
 The reason I chose to do this website is because it's something I have a passion for and also enjoy. 
 I was considering doing something related to the course but I found it fun to create the website while talking about something else 
 I am passionate about. 
