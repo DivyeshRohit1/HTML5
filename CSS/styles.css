@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    font-family: Times New Roman;
+    font-size: 15px;
+    line-height: 1.5;
+	background-color: silver;
+}
+
+.container {
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    background-color: #444;
+    position: relative;
+    overflow: hidden;  
+}
+
+.menu-main, .slider-container {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    
+
+}
+
+.menu-main {
+    text-align: center;
+    width: 100%;
+}
+
+.menu-main:after, .submenu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu-main > li {
+    float: left;
+    display: inline;
+    
+}
+
+.menu-main a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.menu-main > li > a {
+    color: red;
+    display: block;
+    text-align: center;
+    top:1%;
+    font-size: 16px;
+    padding: 15px;
+    position: relative;
+    background: #444;
+}
+
+.menu-main > li:hover > a {
+    color: #FFF;
+}
+
+/* end of nav bar */
+
+
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+
+
+/* Caption text */
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+ 
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+}
+
+/* Website Content */
+
+#Drake{
+	width:60%;
+	margin:0 auto;
+}
+
+#Drake img{
+	width:55%; 
+	height:auto;
+	padding: 1% 2%;
+}
+
+#hbling{
+	width:60%;
+	margin:0 auto;
+}
+
+#hbling img{
+	width:55%; 
+	height:auto;
+	padding: 1% 2%;
+}
+
+#Rihcon{
+	width:55%;
+	margin:0 auto;
+}
+
+#Rihcon img{
+	width:60%;
+	margin:0 auto;
+}
+
+#WekCon{
+	width:55%;
+	margin:0 auto;
+}
+
+#WekCon img{
+	width:60%;
+	margin-left: 19%;	
+}
+
+#ChainCon{
+	width:55%;
+	margin:0 auto;
+}
+
+#ChainCon{
+	width:60%;
+	margin-left: 19%;	
+}
+
+#thumbs{
+	margin-left: 9%;
+	padding: 2%;
+}
+
+#thumbs img{
+	width:22%;
+}
+
+
+#thumbs2 img{
+	width:20%;
+	margin-top: 45px;
+}
+
+#thumbs2 img:hover{
+	-webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+}
+
+#center{
+	text-align: center;
+}
+.grimecon{
+	border: 1px solid #ddd;
+    padding: 5px;
+    width: 55%;
+}
+
+.grimecon img{
+	margin-left: 4%;
+	width:90%; 
+	height:auto;
+}
+
+
+.RBcon{
+	border: 1px solid #ddd;
+    padding: 5px;
+    width: 55%;
+}
+
+.RBcon img{
+	margin-left: 4%;
+	width:90%; 
+	height:auto;
+}
+
+
+
+.HouCon{
+	border: 1px solid #ddd;
+    padding: 5px;
+    width: 55%;
+}
+
+.HouCon img{
+	margin-left: 4%;
+	width:90%; 
+	height:auto;
+}
+
+@media screen{
+	nav ul{
+		max-height: 0;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	.menu-main li{
+		width: 100%;
+		text-align: left;
+	}
+	.dot{
+		height: 21px;
+		width: 21px;
+	}
+	#thumbs img{
+		width:90%;
+	}
+	#thumbs2 img{
+		display: none;
+	}
+	.david img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.daivd tr td{
+		float: left;
+		left: 20%;
+	}
+	.Drake img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.Drake tr td{
+		float: left;
+		left: 20%;
+	}
+	.CB img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.CB tr td{
+		float: left;
+		left: 20%;
+	}
+	.Rihcon img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.Rihcon tr td{
+		float: left;
+		left: 20%;
+	}
+		.JTcon img{
+		width:350px; 
+		margin-left: 12%
+	}
+	.JTcon tr td{
+		float: left;
+		left: 20%;
+	}
+}
+footer 
+{
+	background: #444;
+	text-decoration: none;
+	position: relative;
+	margin-bottom: 0;
+}
+.textright {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.8em;	
+}
+	
+.textleft2 {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.9em;
+	position: relative;
+	right: 16.5%;
+	margin-left: 1%;
+}
+
+.textleft3 {
+	display: table-cell;
+	text-align: right;
+	font-size: 0.9em;
+	position: relative;
+	right: 16.5%;
+	margin-left: 1%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: red;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+}
+
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
